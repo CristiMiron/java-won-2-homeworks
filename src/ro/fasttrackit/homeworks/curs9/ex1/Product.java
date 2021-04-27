@@ -13,6 +13,22 @@ public class Product {
         this.quantity = quantity;
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
     public void setPrice(int price) {
         this.price = price;
     }

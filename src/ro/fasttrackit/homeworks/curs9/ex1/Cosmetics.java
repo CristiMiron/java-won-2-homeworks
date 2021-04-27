@@ -9,6 +9,14 @@ public class Cosmetics extends Product {
         super(price, name, description, quantity);
     }
 
+    public String getColor() {
+        return color;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }

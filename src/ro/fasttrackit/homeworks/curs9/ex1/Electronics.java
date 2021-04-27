@@ -2,7 +2,7 @@ package ro.fasttrackit.homeworks.curs9.ex1;
 
 public class Electronics extends Product {
 
-    public String type;
+    private String type;
     public int length;
     public int width;
     public int height;
@@ -42,5 +42,9 @@ public class Electronics extends Product {
         System.out.println("We create a new line of products called electronics");
         System.out.println("We also have one type of electronics called : " + type + ", which have this specs : " +
                 " length : " + length + ", width : " + width + ", height : " + height + ", weight : " + weight);
+    }
+
+    public String getType() {
+        return type;
     }
 }

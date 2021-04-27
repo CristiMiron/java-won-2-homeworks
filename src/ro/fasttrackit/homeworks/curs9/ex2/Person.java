@@ -29,10 +29,9 @@ public class Person {
         this.lastname = lastname;
     }
 
-    public void fullName (String name) {
-        setFirstname(firstname);
-        setLastname(lastname);
-        System.out.println("Fullname : " + firstname + lastname);
+    public String fullName (String name) {
+        System.out.println("Fullname : " + firstname + " " + lastname);
+        return firstname + lastname;
     }
     public void age (){
         LocalDateTime birth = LocalDateTime.of(1984,07,29,10,34);
